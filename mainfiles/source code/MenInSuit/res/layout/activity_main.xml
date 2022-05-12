@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:layout_gravity="center"
+    tools:context=".MainActivity" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="@string/adUnitId_banner" >
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+        
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/start"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/folder"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+            
+            <Button
+                android:id="@+id/button1_rate"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/rateus1"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            
+            <Button
+                android:id="@+id/button1_more"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/moreapp1"
+                android:gravity="center"
+                android:textColor="@android:color/white" />
+            
+            <Button
+                android:id="@+id/button1_share"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/shareapp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

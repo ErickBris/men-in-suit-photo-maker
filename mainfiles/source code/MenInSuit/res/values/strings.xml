@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MenInSuit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="titlehelp">How to use the App?</string>
+    <string name="texthelp">"It's Very Simple !!!
+     
+			 	       Just swipe the screen to  change  the  frames.  Swipe forward or backward. Adjust the camera screen and click to take a snap. Click save  button  from next screen to save image.
+     
+     	-Thank you for downloading."</string>
+    <string name="textAbout">"Application by Code agent.
+
+If you like the App click below to rate us.
+"</string>
+    <string name="rateButtonText">Give it 5 stars ;)</string>
+    <string name="rateus_url">https://play.google.com/store/apps/details?id=com.mansuits.camera</string>
+    <string name="moreAppsButton">More cool apps!</string>
+    <string name="moreapp_url">https://play.google.com/store/apps/developer?id=codeagent</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_full_screen_view">FullScreenViewActivity</string>
+    <string name="title_activity_folder_view">FolderViewActivity</string>
+    
+     <string name="adUnitId_banner">ca-app-pub-1445347942946881/2882823465</string>
+   <string name="adUnitId_intersitial">ca-app-pub-1445347942946881/4359556667</string>
+    
+
+</resources>

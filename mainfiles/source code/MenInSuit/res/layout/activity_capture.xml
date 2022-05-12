@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meninsuit.CaptureActivity" >
+
+    <RelativeLayout
+        android:id="@+id/capture_id_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ViewFlipper
+            android:id="@+id/flipper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/fill_button"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/size" />
+
+        <ImageButton
+            android:id="@+id/rotate_button"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/rotate" />
+
+        <ImageButton
+            android:id="@+id/help_button"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/help" />
+
+        <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/info" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/barras"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="64dp"
+        android:alpha="0.7"
+        android:background="#00dddddd"
+        android:gravity="center_vertical"
+        android:keepScreenOn="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/froze_button"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp"
+            android:alpha="0.7"
+            android:background="#00ffffff"
+            android:gravity="left"
+            android:scaleType="centerInside"
+            android:src="@drawable/select" />
+
+        <ImageButton
+            android:id="@+id/capture_button"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="7dp"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/share_but"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5.0dip"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.7"
+            android:background="@drawable/round_button"
+            android:scaleType="centerInside"
+            android:src="@drawable/gallery" />
+    </RelativeLayout>
+
+</RelativeLayout>
